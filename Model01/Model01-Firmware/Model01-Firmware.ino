@@ -83,7 +83,9 @@
   */
 
 enum { MACRO_VERSION_INFO,
-       MACRO_ANY
+       MACRO_ANY,
+       MACRO_TOGGLEIME,
+       MACRO_LEDOFF
      };
 
 
@@ -226,7 +228,7 @@ KEYMAPS(
    Key_LeftShift, Key_Backspace, Key_LeftGui, Key_LeftControl,
    ShiftToLayer(FUNCTION),
 
-   M(MACRO_ANY),  Key_6, Key_7, Key_8,     Key_9,         Key_0,         LockLayer(NUMPAD),
+   M(MACRO_TOGGLEIME),  Key_6, Key_7, Key_8,     Key_9,         Key_0,         LockLayer(NUMPAD),
    Key_Enter,     Key_Y, Key_U, Key_I,     Key_O,         Key_P,         Key_Equals,
                   Key_H, Key_J, Key_K,     Key_L,         Key_Semicolon, Key_Quote,
    Key_RightGui,  Key_N, Key_M, Key_Comma, Key_Period,    Key_Slash,     Key_Minus,
@@ -257,7 +259,7 @@ KEYMAPS(
    ___),
 
   [FUNCTION] =  KEYMAP_STACKED
-  (___,      Key_F1,       Key_F2,    Key_F3,     Key_F4,        Key_F5,           ___,
+  (___,      Key_F1,       Key_F2,    Key_F3,     Key_F4,        Key_F5,           M(MACRO_LEDOFF),
    Key_Tab,  LGUI(Key_Q),  LGUI(Key_W), Key_mouseBtnR, LGUI(Key_R), LGUI(Key_T), Key_mouseWarpNE,
    Key_Home, LGUI(Key_A),  LGUI(Key_S), LGUI(Key_D), LGUI(Key_F), Key_mouseWarpNW,
    Key_End,  LGUI(Key_Z),  LGUI(Key_X),  LGUI(Key_C), LGUI(Key_V), Key_mouseWarpSW,  Key_mouseWarpSE,
@@ -282,7 +284,7 @@ KEYMAPS(
 
 static void versionInfoMacro(uint8_t keyState) {
   if (keyToggledOn(keyState)) {
-    Macros.type(PSTR("Keyboardio Model 01 - Kaleidoscope "));
+    Macros.type(PSTR("Keyboardio Model 01-Q #003831 - Kaleidoscope "));
     Macros.type(PSTR(BUILD_INFORMATION));
   }
 }
@@ -307,6 +309,15 @@ static void anyKeyMacro(uint8_t keyState) {
     kaleidoscope::hid::pressKey(lastKey, toggledOn);
 }
 
+/** Turn off leds from forum
+ */
+
+static void turnLEDsOff(uint8_t key_state) {
+  if (keyToggledOn(key_state)) {
+    LEDOff.activate();
+  }
+}
+
 
 /** macroAction dispatches keymap events that are tied to a macro
     to that macro. It takes two uint8_t parameters.
@@ -322,13 +333,17 @@ static void anyKeyMacro(uint8_t keyState) {
 
 const macro_t *macroAction(uint8_t macroIndex, uint8_t keyState) {
   switch (macroIndex) {
-
   case MACRO_VERSION_INFO:
     versionInfoMacro(keyState);
     break;
-
   case MACRO_ANY:
     anyKeyMacro(keyState);
+    break;   
+  case MACRO_TOGGLEIME:
+    return MACRODOWN(D(LeftControl), T(Spacebar), U(LeftControl));
+    break;
+  case MACRO_LEDOFF:
+    turnLEDsOff(keyState);
     break;
   }
   return MACRO_NONE;
