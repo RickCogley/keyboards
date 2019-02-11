@@ -37,6 +37,6 @@ The steps to set up are:
 
 After that, it just works. I put an English keycap set on this originally Japanese keyboard, so that I can have arrow keys, since PFU does not sell an English HHKB with them. Many thanks to Hasu!
 
-![](PFU-HHKB-Original-Topre-Controller-201902.JPG)
+![](HHKB Professional JP/PFU-HHKB-Original-Topre-Controller-201902.JPG)
 
-![](PFU-HHKB-New-HHKB-Controller-from-TMK-201902.JPG)
+![](HHKB Professional JP/PFU-HHKB-New-HHKB-Controller-from-TMK-201902.JPG)
