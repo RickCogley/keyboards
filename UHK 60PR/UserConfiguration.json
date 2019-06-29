@@ -5137,7 +5137,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 53
+                  "scancode": 41
                 },
                 {
                   "keyActionType": "keystroke",
@@ -5461,7 +5461,7 @@
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
-                  "scancode": 41
+                  "scancode": 53
                 },
                 {
                   "keyActionType": "keystroke",
@@ -5752,7 +5752,7 @@
                 null,
                 {
                   "keyActionType": "playMacro",
-                  "macroIndex": 2
+                  "macroIndex": 3
                 },
                 null
               ]
@@ -7916,6 +7916,20 @@
         {
           "macroActionType": "text",
           "text": "iddqd"
+        }
+      ]
+    },
+    {
+      "isLooped": false,
+      "isPrivate": true,
+      "name": "Tilde",
+      "macroActions": [
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 53,
+          "modifierMask": 34
         }
       ]
     },
