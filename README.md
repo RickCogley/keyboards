@@ -1,4 +1,10 @@
 # Keyboard Configurations
+## Ultimate Hacking Keyboard
+
+This keyboard is easily configurable with its "Agent" software, which also does firmware updates. Agent lets you export a text configuration file, which I am saving in this repo. 
+
+When doing firmware updates, note that you need to shut down Karabiner Elements, and connect the keyboard directly to the Mac, not via a USB hub. 
+
 ## Keyboard.io Model 01-Q
 
 I use a Mac laptop, with a Japanese keyboard, so I'm not only getting used to US positioning on the Model 01, but also just the general difference of having thumb keys. 
