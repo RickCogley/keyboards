@@ -4,10 +4,10 @@
   "userConfigPatchVersion": 0,
   "deviceName": "My UHK",
   "doubleTapSwitchLayerTimeout": 250,
-  "iconsAndLayerTextsBrightness": 129,
-  "alphanumericSegmentsBrightness": 128,
-  "keyBacklightBrightness": 129,
-  "mouseMoveInitialSpeed": 4,
+  "iconsAndLayerTextsBrightness": 255,
+  "alphanumericSegmentsBrightness": 250,
+  "keyBacklightBrightness": 255,
+  "mouseMoveInitialSpeed": 1,
   "mouseMoveAcceleration": 68,
   "mouseMoveDeceleratedSpeed": 8,
   "mouseMoveBaseSpeed": 32,
@@ -373,7 +373,44 @@
             },
             {
               "id": 2,
-              "keyActions": []
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
+              ]
             }
           ]
         },
@@ -657,6 +694,47 @@
                 },
                 null
               ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
+              ]
             }
           ]
         },
@@ -824,6 +902,47 @@
                 null,
                 null,
                 null
+              ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
               ]
             }
           ]
@@ -998,6 +1117,47 @@
                   "mouseAction": "accelerate"
                 },
                 null
+              ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
               ]
             }
           ]
@@ -1358,7 +1518,44 @@
             },
             {
               "id": 2,
-              "keyActions": []
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
+              ]
             }
           ]
         },
@@ -1652,6 +1849,47 @@
                 },
                 null
               ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
+              ]
             }
           ]
         },
@@ -1818,6 +2056,47 @@
                 null,
                 null,
                 null
+              ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
               ]
             }
           ]
@@ -1992,6 +2271,47 @@
                   "mouseAction": "accelerate"
                 },
                 null
+              ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
               ]
             }
           ]
@@ -2352,7 +2672,44 @@
             },
             {
               "id": 2,
-              "keyActions": []
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
+              ]
             }
           ]
         },
@@ -2636,6 +2993,47 @@
                 },
                 null
               ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
+              ]
             }
           ]
         },
@@ -2803,6 +3201,47 @@
                 null,
                 null,
                 null
+              ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
               ]
             }
           ]
@@ -2974,6 +3413,47 @@
                   "mouseAction": "accelerate"
                 },
                 null
+              ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
               ]
             }
           ]
@@ -3334,7 +3814,44 @@
             },
             {
               "id": 2,
-              "keyActions": []
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
+              ]
             }
           ]
         },
@@ -3628,6 +4145,47 @@
                 },
                 null
               ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
+              ]
             }
           ]
         },
@@ -3794,6 +4352,47 @@
                 null,
                 null,
                 null
+              ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
               ]
             }
           ]
@@ -3965,6 +4564,47 @@
                   "mouseAction": "accelerate"
                 },
                 null
+              ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
               ]
             }
           ]
@@ -4325,7 +4965,44 @@
             },
             {
               "id": 2,
-              "keyActions": []
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
+              ]
             }
           ]
         },
@@ -4609,6 +5286,47 @@
                 },
                 null
               ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
+              ]
             }
           ]
         },
@@ -4777,6 +5495,47 @@
                 null,
                 null
               ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
+              ]
             }
           ]
         },
@@ -4942,6 +5701,47 @@
                 },
                 null
               ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
+              ]
             }
           ]
         }
@@ -4950,7 +5750,7 @@
     {
       "isDefault": true,
       "abbreviation": "RIK",
-      "name": "QWERTY for Mac 2",
+      "name": "QWERTY for Mac Rick",
       "description": "QWERTY is the mother of all layouts. This is the Mac version.",
       "layers": [
         {
@@ -5301,7 +6101,44 @@
             },
             {
               "id": 2,
-              "keyActions": []
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
+              ]
             }
           ]
         },
@@ -5585,6 +6422,47 @@
                 },
                 null
               ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
+              ]
             }
           ]
         },
@@ -5682,7 +6560,10 @@
             {
               "id": 1,
               "keyActions": [
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 2
+                },
                 {
                   "keyActionType": "switchKeymap",
                   "keymapAbbreviation": "QWR"
@@ -5755,6 +6636,47 @@
                   "macroIndex": 3
                 },
                 null
+              ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
               ]
             }
           ]
@@ -5920,6 +6842,47 @@
                   "mouseAction": "accelerate"
                 },
                 null
+              ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
               ]
             }
           ]
@@ -6280,7 +7243,44 @@
             },
             {
               "id": 2,
-              "keyActions": []
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
+              ]
             }
           ]
         },
@@ -6574,6 +7574,47 @@
                 },
                 null
               ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
+              ]
             }
           ]
         },
@@ -6744,6 +7785,47 @@
                 null,
                 null
               ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
+              ]
             }
           ]
         },
@@ -6908,6 +7990,47 @@
                   "mouseAction": "accelerate"
                 },
                 null
+              ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
               ]
             }
           ]
@@ -7268,7 +8391,44 @@
             },
             {
               "id": 2,
-              "keyActions": []
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
+              ]
             }
           ]
         },
@@ -7554,6 +8714,47 @@
                 null,
                 null
               ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
+              ]
             }
           ]
         },
@@ -7716,6 +8917,47 @@
                 null,
                 null
               ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
+              ]
             }
           ]
         },
@@ -7876,6 +9118,47 @@
                   "mouseAction": "accelerate"
                 },
                 null
+              ]
+            },
+            {
+              "id": 2,
+              "keyActions": [
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 76
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 42
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "middleClick"
+                },
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "rightClick"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "keyActions": [
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "leftClick"
+                }
               ]
             }
           ]
